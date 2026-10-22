@@ -1,9 +1,0 @@
-s='ABCABCABCA'
-s1='ABC'
-i=s.find(s1)
-print(i)
-i=s.find(s1,3,10)
-print(i)
-i=s.find(s1,6,10)
-print(i)
-print(len(s1))

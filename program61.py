@@ -1,1 +1,0 @@
-print('We Are Learning Python'.istitle())

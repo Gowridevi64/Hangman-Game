@@ -1,5 +1,0 @@
-s=set("python")
-print('p' in s)
-print('z' in s)
-print('y' in s)
-print('o' in s)
