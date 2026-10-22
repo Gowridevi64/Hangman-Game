@@ -1,0 +1,2 @@
+s='PYTHON PROGRAMMING IS VERY EASY TO LEARN'
+print(s.lower())

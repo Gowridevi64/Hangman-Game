@@ -1,0 +1,13 @@
+l1=[[10,20],[30,40],[50,60]]
+print(l1[0])
+print(l1[1])
+print(l1[2])
+print(l1[0][0])
+print(l1[0][1])
+print(l1[0][1])
+print(l1[1][0])
+print(l1[1][1])
+print(l1[1][1])
+print(l1[2][0])
+print(l1[2][1])
+print(l1[2][0])

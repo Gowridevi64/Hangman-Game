@@ -1,0 +1,1 @@
+print('aPple12'.isalpha())

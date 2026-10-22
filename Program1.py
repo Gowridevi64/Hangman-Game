@@ -1,0 +1,2 @@
+varname = input()
+print(varname)

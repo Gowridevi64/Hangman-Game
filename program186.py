@@ -1,0 +1,12 @@
+def wish():
+	print("Hello, students Good Morning")
+wish()
+wish()
+wish()
+wish()
+wish()
+wish()
+wish()
+wish()
+wish()
+wish()

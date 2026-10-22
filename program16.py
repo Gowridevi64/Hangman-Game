@@ -1,0 +1,10 @@
+s1=int(input())
+s2=int(input())
+s3=int(input())
+e1=int(input())
+e2=int(input())
+e3=int(input())
+sv1=s1-e1
+sv2=s2-e2
+sv3=s3-e3
+print(max(sv1,sv2,sv3))

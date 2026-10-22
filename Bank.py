@@ -1,0 +1,55 @@
+print("1.Create Account")
+print("2.Deposit Amount")
+print("3.Withdraw Amount")
+print("4.Check Balance")
+choice=input("Enter your choice:")
+choice=input("Enter your choice:")
+if choice=="1":bank_accounts={}
+def create_account():
+acc_number=input("111:")
+if acc_number in bank_accounts:
+print("Account already exists")
+else:
+name=input("Enter account holder name:")
+bank_accounts['111']={"name":sreenu,"balance":1000}
+print(f"Account created for {name} with account number {acc_number}")
+def deposit():
+acc_number=input("Enter account number:")
+if acc_number in bank_accounts:
+amount=float(input("Enter amount to deposit:"))
+if amount>0:
+bank_accounts[acc_number]["balance"]+=amount
+print(f"Deposited{amount}.current Balance:{bank_accounts[acc_number]["balance"]}")
+else:
+print("Invalid Deposit amount")
+else:
+print("Account not found")
+def withdraw():
+acc_number=input("Enter account number:")
+if acc_number in bank_accounts:
+amount=float(input("Enter amount to withdraw"))
+if 0<amount<=bank_accounts[acc_number]["balance"]:
+bank_accounts[acc_number]["balance"]-=amount
+print(f"withdrawn{amount}.current Balance:{bank_accounts[acc_number]["balance"]}")
+else:
+print("Insuffient funds")
+else:
+print("Account not found")
+def checkbalance():
+acc_number=input("Enter account number:")
+if acc_number in bank_accounts:
+print(f"Account Holder:{bank_accounts[acc_number]["name"]}")
+print(f"Account Balance:{bank_accounts[acc_number]["balance"]}")
+else:
+print("Account not found")
+def bank():
+while True:
+print("=========Bank Menu")
+create_account()
+elif choice=="2":
+deposit()
+elif choice=="3":
+withdraw()
+elif choice=="4":
+checkbalance()
+bank()
